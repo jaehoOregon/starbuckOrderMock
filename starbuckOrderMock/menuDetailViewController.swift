@@ -46,14 +46,12 @@ class menuDetailViewController: UIViewController {
         
         print(orderDict)
     }
-    
+        
     @IBAction func readyToPay(_ sender: UIButton) {
         
-        let paymentVC = storyboard?.instantiateViewController(withIdentifier: "PayViewController") as! PayViewController
-//        menuDelegate.didTapPay(selectedMenu: orderDict, <#T##()#>)
-        present(paymentVC, animated: true, completion: nil)
+//        let paymentVC = storyboard?.instantiateViewController(withIdentifier: "PayViewController") as! PayViewController
+////        menuDelegate.didTapPay(selectedMenu: orderDict)
+//        present(paymentVC, animated: true, completion: nil)
         
     }
-    
-    
 }

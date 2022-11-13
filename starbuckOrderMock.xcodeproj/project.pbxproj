@@ -12,6 +12,8 @@
 		030EB848292079FC001588F7 /* networkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB847292079FC001588F7 /* networkService.swift */; };
 		030EB84A29209FAE001588F7 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB84929209FAE001588F7 /* Orders.swift */; };
 		030EB84C2920A174001588F7 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB84B2920A174001588F7 /* PayViewController.swift */; };
+		030EB84F2920AC52001588F7 /* orderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB84D2920AC52001588F7 /* orderTableViewCell.swift */; };
+		030EB8502920AC52001588F7 /* orderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030EB84E2920AC52001588F7 /* orderTableViewCell.xib */; };
 		03F375022920424D0080C101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375012920424D0080C101 /* AppDelegate.swift */; };
 		03F375042920424D0080C101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375032920424D0080C101 /* SceneDelegate.swift */; };
 		03F375062920424D0080C101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375052920424D0080C101 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 		030EB847292079FC001588F7 /* networkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkService.swift; sourceTree = "<group>"; };
 		030EB84929209FAE001588F7 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		030EB84B2920A174001588F7 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		030EB84D2920AC52001588F7 /* orderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderTableViewCell.swift; sourceTree = "<group>"; };
+		030EB84E2920AC52001588F7 /* orderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderTableViewCell.xib; sourceTree = "<group>"; };
 		03F374FE2920424D0080C101 /* starbuckOrderMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbuckOrderMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F375012920424D0080C101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F375032920424D0080C101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,14 +99,16 @@
 				03F375072920424D0080C101 /* Main.storyboard */,
 				030EB84929209FAE001588F7 /* Orders.swift */,
 				03F37527292061940080C101 /* orderViewController.swift */,
+				03F3751E29205A6E0080C101 /* menuTableViewCell.xib */,
+				03F3751D29205A6E0080C101 /* menuTableViewCell.swift */,
 				030EB84329206F45001588F7 /* menuDetailViewController.swift */,
 				030EB84B2920A174001588F7 /* PayViewController.swift */,
+				030EB84E2920AC52001588F7 /* orderTableViewCell.xib */,
+				030EB84D2920AC52001588F7 /* orderTableViewCell.swift */,
 				03F37516292043890080C101 /* menuViewDrink.xib */,
 				03F37515292043890080C101 /* menuViewDrink.swift */,
 				03F3752429205F890080C101 /* menuViewTest.xib */,
 				03F3752329205F890080C101 /* menuViewTest.swift */,
-				03F3751E29205A6E0080C101 /* menuTableViewCell.xib */,
-				03F3751D29205A6E0080C101 /* menuTableViewCell.swift */,
 				03F3751A292043980080C101 /* menuViewFood.xib */,
 				03F37519292043980080C101 /* menuViewFood.swift */,
 				03F3750A2920424E0080C101 /* Assets.xcassets */,
@@ -176,6 +182,7 @@
 				03F3750B2920424E0080C101 /* Assets.xcassets in Resources */,
 				03F37518292043890080C101 /* menuViewDrink.xib in Resources */,
 				03F3752629205F890080C101 /* menuViewTest.xib in Resources */,
+				030EB8502920AC52001588F7 /* orderTableViewCell.xib in Resources */,
 				03F375092920424D0080C101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +208,7 @@
 				030EB84429206F45001588F7 /* menuDetailViewController.swift in Sources */,
 				030EB848292079FC001588F7 /* networkService.swift in Sources */,
 				03F375042920424D0080C101 /* SceneDelegate.swift in Sources */,
+				030EB84F2920AC52001588F7 /* orderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
