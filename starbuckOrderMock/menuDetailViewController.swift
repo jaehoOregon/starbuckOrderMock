@@ -10,6 +10,7 @@ import UIKit
 class menuDetailViewController: UIViewController {
 
     var data: [String]?
+    var orderDict = Orders.orders
     
     @IBOutlet weak var menuDetailKorean: UILabel!
     @IBOutlet weak var menuDetailEnglish: UILabel!
@@ -19,11 +20,6 @@ class menuDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        print(data!)
-//        print(data![0])
-//        print(data![1])
-//        print(data![2])
-//        print(data![3])
         menuDetailKorean.text = data?[0]
         menuDetailEnglish.text = data?[1]
         menuDetailPrice.text = data?[3]
@@ -33,5 +29,15 @@ class menuDetailViewController: UIViewController {
     
     // MARK: - Place Order Button Action
     @IBAction func placeOrderBtnClicked(_ sender: UIButton) {
+        
+        let selectedMenu = menuDetailKorean.text!
+        
+        if orderDict[selectedMenu] == nil {
+            orderDict["\(String(describing: menuDetailKorean.text!))"] = 1
+        } else {
+            orderDict[selectedMenu]! = orderDict[selectedMenu]! + 1
+        }
+        
+        print(orderDict)
     }
 }

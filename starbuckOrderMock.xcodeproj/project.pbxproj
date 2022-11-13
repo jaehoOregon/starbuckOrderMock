@@ -10,6 +10,7 @@
 		030EB84429206F45001588F7 /* menuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB84329206F45001588F7 /* menuDetailViewController.swift */; };
 		030EB8462920760B001588F7 /* reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB8452920760B001588F7 /* reference.swift */; };
 		030EB848292079FC001588F7 /* networkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB847292079FC001588F7 /* networkService.swift */; };
+		030EB84A29209FAE001588F7 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EB84929209FAE001588F7 /* Orders.swift */; };
 		03F375022920424D0080C101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375012920424D0080C101 /* AppDelegate.swift */; };
 		03F375042920424D0080C101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375032920424D0080C101 /* SceneDelegate.swift */; };
 		03F375062920424D0080C101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F375052920424D0080C101 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		030EB84329206F45001588F7 /* menuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuDetailViewController.swift; sourceTree = "<group>"; };
 		030EB8452920760B001588F7 /* reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reference.swift; sourceTree = "<group>"; };
 		030EB847292079FC001588F7 /* networkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkService.swift; sourceTree = "<group>"; };
+		030EB84929209FAE001588F7 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		03F374FE2920424D0080C101 /* starbuckOrderMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starbuckOrderMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F375012920424D0080C101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F375032920424D0080C101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				030EB847292079FC001588F7 /* networkService.swift */,
 				03F375052920424D0080C101 /* ViewController.swift */,
 				03F375072920424D0080C101 /* Main.storyboard */,
+				030EB84929209FAE001588F7 /* Orders.swift */,
 				03F37527292061940080C101 /* orderViewController.swift */,
 				030EB84329206F45001588F7 /* menuDetailViewController.swift */,
 				03F37516292043890080C101 /* menuViewDrink.xib */,
@@ -184,6 +187,7 @@
 				03F375062920424D0080C101 /* ViewController.swift in Sources */,
 				03F375022920424D0080C101 /* AppDelegate.swift in Sources */,
 				03F3752229205CF60080C101 /* menuModel.swift in Sources */,
+				030EB84A29209FAE001588F7 /* Orders.swift in Sources */,
 				030EB8462920760B001588F7 /* reference.swift in Sources */,
 				03F37517292043890080C101 /* menuViewDrink.swift in Sources */,
 				03F3751B292043980080C101 /* menuViewFood.swift in Sources */,
