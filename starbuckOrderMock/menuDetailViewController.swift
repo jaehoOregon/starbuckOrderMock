@@ -7,10 +7,16 @@
 
 import UIKit
 
+//protocol orderTransfer {
+//    func didTapPay(selectedMenu: [])
+//}
+
 class menuDetailViewController: UIViewController {
 
     var data: [String]?
     var orderDict = Orders.orders
+    
+//    var menuDelegate: orderTransfer!
     
     @IBOutlet weak var menuDetailKorean: UILabel!
     @IBOutlet weak var menuDetailEnglish: UILabel!
@@ -40,4 +46,14 @@ class menuDetailViewController: UIViewController {
         
         print(orderDict)
     }
+    
+    @IBAction func readyToPay(_ sender: UIButton) {
+        
+        let paymentVC = storyboard?.instantiateViewController(withIdentifier: "PayViewController") as! PayViewController
+//        menuDelegate.didTapPay(selectedMenu: orderDict, <#T##()#>)
+        present(paymentVC, animated: true, completion: nil)
+        
+    }
+    
+    
 }
