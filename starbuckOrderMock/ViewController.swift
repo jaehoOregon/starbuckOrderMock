@@ -9,11 +9,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewContainer: UIView!
+    
+    var menuDrink: UIView!
+    var menuFood: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        menuDrink = menuViewDrink().view
+//        viewContainer.addSubview(menuDrink)
+
+        menuFood = menuViewFood().view
+        viewContainer.addSubview(menuFood)
+        menuDrink = menuViewTest().view
+        viewContainer.addSubview(menuDrink)
     }
 
-
+// MARK: segmentControlActionL
+    @IBAction func switchView(_ sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
+        case 0:
+            viewContainer.bringSubviewToFront(menuDrink)
+        case 1:
+            viewContainer.bringSubviewToFront(menuFood)
+        default:
+            break
+        }
+        
+    }
 }
 
